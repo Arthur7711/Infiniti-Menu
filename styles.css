@@ -1,0 +1,28 @@
+.root-nav li {
+  width: 150px;
+  background: red;
+  padding-left: 0;
+  position: relative;
+  list-style: none;
+}
+.root-nav a,
+.root-nav span {
+  list-style-type: none;
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.root-nav ul {
+  display: none;
+  position: absolute;
+  right: -150px;
+  top: 0;
+  width: 150px;
+}
+ul.sub-menu-active {
+  display: block;
+}
+span.sub-menu-active-span {
+  background: green;
+}
